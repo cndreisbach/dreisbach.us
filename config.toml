@@ -1,0 +1,23 @@
+baseURL = "http://www.dreisbach.us/"
+languageCode = "en-us"
+title = "Clinton Dreisbach"
+theme = "hemingway"
+copyright = "&copy; Clinton Dreisbach 2017"
+
+[params]
+
+[params.highlight]
+style = "github"
+languages = ["ruby", "python", "javascript"]
+
+[[params.social]]
+url = "https://github.com/cndreisbach"
+fa_icon = "fa-github"
+
+[[params.social]]
+url = "https://twitter.com/cndreisbach"
+fa_icon = "fa-twitter"
+
+[[params.social]]
+url = "/index.xml"
+fa_icon = "fa-rss"
