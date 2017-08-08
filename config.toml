@@ -3,12 +3,13 @@ languageCode = "en-us"
 title = "Clinton Dreisbach"
 theme = "hemingway"
 copyright = "&copy; Clinton Dreisbach 2017"
+paginate = 7
 
 [params]
 
 [params.highlight]
 style = "github"
-languages = ["ruby", "python", "javascript"]
+languages = ["ruby", "python", "javascript", "bash"]
 
 [[params.social]]
 url = "https://github.com/cndreisbach"

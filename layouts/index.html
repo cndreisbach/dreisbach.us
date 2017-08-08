@@ -1,0 +1,11 @@
+{{ partial "header" . }}
+{{ partial "nav" . }}
+<section class="section">
+  <div class="container">
+    {{ range sort .Paginator.Pages }}
+      {{ .Render "summary" }}
+    {{ end }}
+  </div>
+</section>
+{{ partial "pager" . }}
+{{ partial "footer" . }}
