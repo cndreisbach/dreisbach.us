@@ -1,7 +1,7 @@
 baseURL = "http://www.dreisbach.us/"
 languageCode = "en-us"
 title = "Clinton Dreisbach"
-theme = "hemingway"
+theme = "blank"
 copyright = "&copy; Clinton Dreisbach 2017"
 paginate = 7
 
