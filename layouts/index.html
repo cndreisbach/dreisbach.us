@@ -1,10 +1,10 @@
+{{ define "main" }}
 <!-- - -*- engine:go -*- -->
-{{ partial "header.html" . }}
 <main>
 	{{ range sort .Paginator.Pages }}
-	    {{ partial "summary.html" . }}
+	{{ partial "summary.html" . }}
 	{{ end }}
 	{{ partial "pagination.html" . }}
 </main>
 {{ partial "sidebar.html" . }}
-{{ partial "footer.html" . }}
+{{ end }}

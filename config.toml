@@ -2,10 +2,11 @@ baseURL = "http://www.dreisbach.us/"
 languageCode = "en-us"
 title = "Clinton Dreisbach"
 theme = "blank"
-copyright = "&copy; Clinton Dreisbach 2017"
 paginate = 7
 
 [params]
+author = "Clinton Dreisbach"
+copyright = "&copy; Clinton Dreisbach 2017"
 
 [params.highlight]
 style = "github"
