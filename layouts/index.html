@@ -2,7 +2,7 @@
 <!-- - -*- engine:go -*- -->
 <main>
 	{{ range sort .Paginator.Pages }}
-	{{ partial "summary.html" . }}
+        {{ .Render "summary" }}
 	{{ end }}
 	{{ partial "pagination.html" . }}
 </main>

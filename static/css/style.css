@@ -1,4 +1,26 @@
-body {
-    max-width: 50em;
+:root {
+    --link-color: var(--color-blue);
+}
+
+.page-header {
+    background-color: var(--color-navy);
+    padding: 1rem 0;
+}
+
+.page-header a {
+    color: var(--color-white);
+}
+
+.page-container {
+    max-width: 50rem;
     margin: 1em auto;
 }
+
+a:hover {
+    text-decoration: underline;
+}
+
+article {
+    margin-bottom: 2rem;
+}
+

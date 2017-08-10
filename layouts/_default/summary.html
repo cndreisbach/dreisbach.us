@@ -1,0 +1,14 @@
+<!-- - -*- engine:go -*- -->
+<article class="h-entry">
+	<h2 class="p-name"><a class="u-url u-uid" href="{{ .Permalink }}">{{ .Title }}</a></h2>
+	<time class="dt-published">{{ .Date.Format "02.01.2006 15:04" }}</time>
+	{{ range .Params.tags }}
+	<a class="p-category" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+	{{ end }}
+	<div class="p-summary">
+		{{ .Summary }}
+		{{ if .Truncated }}
+		<a href="{{ .Permalink }}">Read more...</a>
+		{{ end }}
+	</div>
+</article>

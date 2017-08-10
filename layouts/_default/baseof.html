@@ -15,7 +15,8 @@
 	    {{ .Hugo.Generator }}            
     </head>
     <body>
-        <header>
+        <header class="page-header">
+            <div class="page-container">
 		    <h1><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
 		    <nav>
 			    <ul>
@@ -24,13 +25,16 @@
 				    {{ end }}
 			    </ul>
 		    </nav>
+            </div>
         </header>
+        <div class="page-container">
         {{ block "main" . }}
         {{ end }}
         {{ block "footer" . }}
         <footer>
-		    <p>&copy; {{ now.Year }} <a href="{{ .Site.BaseURL }}">{{ .Site.Params.author }}</a></p>
+		    <p>&copy; {{ now.Year }} <a class="h-card" ref="{{ .Site.BaseURL }}">{{ .Site.Params.author }}</a></p>
 	    </footer>
         {{ end }}
+        </div>
     </body>
 </html>
