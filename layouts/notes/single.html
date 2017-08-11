@@ -1,0 +1,16 @@
+{{ define "main" }}
+<!-- - -*- engine:go -*- -->
+<main>
+    <article class="article article--note h-entry">
+        <h2><time class="dt-published" datetime="{{ .Date.Format "2006-01-02T15:04" }}">{{ .Date.Format "2 Jan 2006" }}</time></h2>
+
+        <div class="content e-content">
+            {{ .Content }}
+        </div>
+
+        <div class="is-hidden">
+          <a class="u-url u-uid" href="{{ .Permalink }}">Permalink</a>
+        </div>
+    </article>
+</main>
+{{ end }}
