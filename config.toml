@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "Clinton Dreisbach"
 theme = "blank"
 paginate = 7
+sectionPagesMenu = "main"
 
 [params]
 author = "Clinton Dreisbach"
@@ -23,3 +24,25 @@ fa_icon = "fa-twitter"
 [[params.social]]
 url = "/index.xml"
 fa_icon = "fa-rss"
+
+[[menu.main]]
+name = "Articles"
+weight = 10
+identifier = "articles"
+url = "/articles/"
+
+[[menu.main]]
+name = "Notes"
+weight = 20
+identifier = "notes"
+url = "/notes/"
+
+[[menu.main]]
+name = "Games"
+weight = 30
+url = "/games/"
+
+[[menu.main]]
+name = "About"
+weight = 100
+url = "/about/"

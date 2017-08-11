@@ -2,6 +2,12 @@
 
 :root {
     --link-color: var(--color-blue);
+    --headings-font-size-h1: 2.5rem;
+    --headings-font-size-h2: 1.75rem;
+    --headings-font-size-h3: 1.5rem;
+    --headings-font-size-h4: 1.25rem;
+    --headings-font-size-h5: 1rem;
+    --headings-font-size-h6: 1rem;
 }
 
 a:hover {
@@ -13,11 +19,21 @@ a:hover {
 
 .page-header {
     background-color: var(--color-navy);
+    color: var(--color-white);
     padding: 1rem 0;
 }
 
 .page-header a {
     color: var(--color-white);
+}
+
+.page-header__title {
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.page-header__subtitle {
+    font-size: var(--font-size-big);
 }
 
 .page-footer {
@@ -38,11 +54,31 @@ a:hover {
     }
 }
 
+.welcome__left {
+    flex: 0 1 auto;
+    min-width: 100px;
+    margin-right: 20px;
+}
+
+.welcome__right {
+    flex: 0 1 auto;
+}
+
 
 /* Modules rules */
 
 .article {
     margin-bottom: 2rem;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
 }
 
 

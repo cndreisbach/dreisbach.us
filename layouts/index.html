@@ -1,9 +1,29 @@
 {{ define "main" }}
 <!-- - -*- engine:go -*- -->
 <main>
-	{{ range sort .Paginator.Pages }}
-        {{ .Render "summary" }}
-	{{ end }}
-	{{ partial "pagination.html" . }}
+	<section id="welcome" class="welcome">
+		<h2>Welcome!</h2>
+		<div class="flex-container">
+			<div class="welcome__left">
+				<img src="/img/me.jpg" alt="My face" class="circle" style="width: 100px; height: 100px;">
+			</div>
+
+			<div class="welcome__right">
+				<p>
+					Hi - I'm Clinton, and I'm a technology educator and software developer in Durham, NC. I've worked with the <a href="http://www.consumerfinance.gov/">Consumer Financial Protection Bureau</a>, <a href="https://www.theironyard.com/">The Iron Yard</a>,
+					and <a href="http://www.rti.org/">RTI International</a>, among others. My big passions are my kids and making the world of programming a more welcoming and diverse place.
+				</p>
+				<p>
+					Find out what I'm up to right now.
+				</p>
+			</div>
+		</div>
+	</section>
+	<section id="articles">
+		{{ range sort .Paginator.Pages }}
+		{{ .Render "summary" }}
+		{{ end }}
+		{{ partial "pagination.html" . }}
+	</section>
 </main>
 {{ end }}

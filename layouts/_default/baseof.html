@@ -7,17 +7,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ .Title }}</title>
     {{ with .Site.Params.description }}
-    <meta name="description" content="{{ . }}">{{ end }} {{ with .Site.Params.author }}
-    <meta name="author" content="{{ . }}">{{ end }}
+    <meta name="description" content="{{ . }}">
+    {{ end }}
+    {{ with .Site.Params.author }}
+    <meta name="author" content="{{ . }}">
+    {{ end }}
+    <link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16" />
     <link rel="stylesheet" href="{{ .Site.BaseURL }}css/shoelace.css">
-    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css"> {{ if .RSSLink }}
-    <link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}"> {{ end }} {{ .Hugo.Generator }}
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css">
+    {{ if .RSSLink }}
+    <link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}"> {{ end }}
+    {{ .Hugo.Generator }}
 </head>
 
 <body>
     <header class="page-header">
         <div class="page-container">
-            <h1><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
+            <h1 class="page-header__title"><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
+            <div class="page-header__subtitle">Dad, programmer, game designer.</div>
             <nav>
                 <ul>
                     {{ range .Site.Menus.main }}
