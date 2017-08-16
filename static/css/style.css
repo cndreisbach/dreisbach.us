@@ -36,6 +36,14 @@ a:hover {
     font-size: var(--font-size-big);
 }
 
+.page-header__left {
+    flex: 1;
+}
+
+.page-header__right {
+    flex: 0;
+}
+
 .page-footer {
     border-top: 1px solid var(--color-gray);
     margin-top: 1rem;
@@ -65,9 +73,43 @@ a:hover {
 }
 
 
+
 /* Modules rules */
 
 .article {
+    margin-bottom: 2rem;
+}
+
+.article__content h1::before,
+.article__content h2::before,
+.article__content h3::before,
+.article__content h4::before,
+.article__content h5::before,
+.article__content h6::before {
+    color: var(--color-gray);
+}
+
+.article__content h2::before {
+    content: "## ";
+}
+
+.article__content h3::before {
+    content: "### ";
+}
+
+.article__content h4::before {
+    content: "#### ";
+}
+
+.article__content h5::before {
+    content: "##### ";
+}
+
+.article__content h6::before {
+    content: "###### ";
+}
+
+.article-list {
     margin-bottom: 2rem;
 }
 
@@ -79,6 +121,10 @@ a:hover {
     display: flex;
     flex-flow: row;
     justify-content: space-around;
+}
+
+.vertical-menu {
+    list-style-type: none;
 }
 
 

@@ -19,7 +19,7 @@
 			</div>
 		</div>
 	</section>
-	<section id="articles">
+	<section id="articles" class="article-list">
 		{{ range sort .Paginator.Pages }}
 		{{ .Render "summary" }}
 		{{ end }}
