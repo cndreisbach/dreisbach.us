@@ -1,0 +1,18 @@
+{{ define "main" }}
+<!-- - -*- engine:go -*- -->
+<main>
+	<article class="article h-entry">
+		<h1 class="p-name">{{ .Title }}</h1>
+		<div class="e-content article__content">
+			{{ .Content }}
+		</div>
+		<div>
+			<ul id="tags">
+				{{ range .Params.tags }}
+					<li><a class="p-category" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> </li>
+				{{ end }}
+			</ul>
+		</div>
+	</article>
+</main>
+{{ end }}

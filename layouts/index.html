@@ -20,7 +20,8 @@
 		</div>
 	</section>
 	<section id="articles" class="article-list">
-		{{ range sort .Paginator.Pages }}
+        {{ $paginator := .Paginate (where .Data.Pages "Type" "!=" "pages") }}
+		{{ range sort $paginator.Pages }}
 		{{ .Render "summary" }}
 		{{ end }}
 		{{ partial "pagination.html" . }}
