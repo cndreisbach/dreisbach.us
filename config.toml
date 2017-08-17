@@ -44,5 +44,10 @@ url = "/games/"
 
 [[menu.main]]
 name = "About"
-weight = 100
+weight = 40
 url = "/about/"
+
+[[menu.main]]
+name= "Now"
+weight = 50
+url = "/now/"

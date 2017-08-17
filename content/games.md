@@ -1,7 +1,7 @@
 ---
 title: "Games"
 date: 2017-08-16T14:34:41-04:00
-draft: true
+draft: false
 type: pages
 ---
 
