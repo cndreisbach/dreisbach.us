@@ -14,21 +14,18 @@ a:hover {
     text-decoration: underline;
 }
 
-
 /* Layout rules */
 
-.page-header {
-    background-color: var(--color-navy);
-    color: var(--color-white);
-    padding: 1rem 0;
+.page-container {
+    margin: 1rem 1rem;
+    max-width: 70rem;
 }
 
-.page-header a {
-    color: var(--color-white);
+.page-header {
+    text-align: center;
 }
 
 .page-header__title {
-    margin-bottom: 0;
     font-weight: bold;
 }
 
@@ -36,12 +33,13 @@ a:hover {
     font-size: var(--font-size-big);
 }
 
-.page-header__left {
-    flex: 1;
+.page-header__menu ul {
+    padding-left: 0;
+    list-style-type: none;
 }
 
-.page-header__right {
-    flex: 0;
+.page-header__menu li {
+    display: inline-block;
 }
 
 .page-footer {
@@ -51,15 +49,34 @@ a:hover {
     text-align: center;
 }
 
-.page-container {
-    margin: 1rem 1rem;
-    max-width: 50rem;
-}
-
 @media (min-width: 52rem) {
     .page-container {
         margin: 1rem auto;
+        display: grid;
+        grid-template-columns: 1fr 3fr;
     }
+
+    .page-header {
+        text-align: right;
+        margin-right: 5rem;
+    }    
+
+    .page-header__menu ul {
+        margin-top: 1rem;
+    }
+
+    .page-header__menu li {
+        display: block;
+    }
+
+    .page-footer {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+}
+
+.welcome {
+    margin-bottom: 1rem;
 }
 
 .welcome__left {

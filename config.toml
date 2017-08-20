@@ -43,6 +43,11 @@ weight = 30
 url = "/games/"
 
 [[menu.main]]
+name = "Projects"
+weight = 35
+url = "/projects/"
+
+[[menu.main]]
 name = "About"
 weight = 40
 url = "/about/"

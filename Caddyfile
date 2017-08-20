@@ -1,0 +1,5 @@
+http://localhost:8080
+root public
+hugo {
+  no_auth
+}

@@ -14,32 +14,27 @@
     {{ end }}
     <link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32" />
     <link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16" />
-    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/shoelace.css">
-    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css">
+    <link rel="stylesheet" href="/css/shoelace.css">
+    <link rel="stylesheet" href="/css/style.css">
     {{ if .RSSLink }}
     <link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}"> {{ end }}
     {{ .Hugo.Generator }}
 </head>
 
 <body>
-    <header class="page-header">
-        <div class="page-container flex-container">
-            <div class="page-header__left">
-                <h1 class="page-header__title"><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
-                <div class="page-header__subtitle">Dad, programmer, game designer.</div>
-            </div>
-            <div class="page-header__right">
-                <nav>
-                    <ul class="vertical-menu text-right">
-                        {{ range .Site.Menus.main }}
-                            <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
-                        {{ end }}
-                    </ul>
-                </nav>
-            </div>
-        </div>
-    </header>
     <div class="page-container">
+        <header class="page-header">
+            <h1 class="page-header__title"><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
+            <div class="page-header__subtitle">Dad, programmer, game designer.</div>
+            <nav class="page-header__menu">
+                <ul>
+                    {{ range .Site.Menus.main }}
+                        <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+                    {{ end }}
+                </ul>
+            </nav>
+        </header>
+
         {{ block "main" . }} {{ end }} {{ block "footer" . }}
         <footer class="page-footer">
             <p>&copy; {{ now.Year }} <a class="h-card" ref="{{ .Site.BaseURL }}">{{ .Site.Params.author }}</a></p>
@@ -47,5 +42,4 @@
         {{ end }}
     </div>
 </body>
-
 </html>
