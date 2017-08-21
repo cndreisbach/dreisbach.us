@@ -19,6 +19,6 @@ before_deploy:
 deploy:
   provider: script
   skip_cleanup: true
-  script: rsync -az --delete-after --quiet -e "ssh -o StrictHostKeyChecking=no" $TRAVIS_BUILD_DIR/public homebase@homebase.dreisbach.us:/var/www/static_web/
+  script: rsync -av --delete-after -e "ssh -o StrictHostKeyChecking=no" $TRAVIS_BUILD_DIR/public homebase@homebase.dreisbach.us:/var/www/static_web/
   on:
     branch: master
