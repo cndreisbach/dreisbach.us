@@ -5,6 +5,10 @@ theme = "blank"
 paginate = 7
 sectionPagesMenu = "main"
 
+[author]
+name = "Clinton Dreisbach"
+email = "clinton@dreisbach.us"
+
 [params]
 author = "Clinton Dreisbach"
 copyright = "&copy; Clinton Dreisbach 2017"
@@ -20,10 +24,6 @@ fa_icon = "fa-github"
 [[params.social]]
 url = "https://twitter.com/cndreisbach"
 fa_icon = "fa-twitter"
-
-[[params.social]]
-url = "/index.xml"
-fa_icon = "fa-rss"
 
 [[menu.main]]
 name = "Articles"

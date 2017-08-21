@@ -1,7 +1,6 @@
-<!-- - -*- engine:go -*- -->
 <!DOCTYPE html>
+<!-- - -*- engine:go -*- -->
 <html lang="{{ .Site.LanguageCode | default " en " }}">
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,6 +15,7 @@
     <link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16" />
     <link rel="stylesheet" href="/css/shoelace.css">
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css" />
     {{ if .RSSLink }}
     <link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}"> {{ end }}
     {{ .Hugo.Generator }}
@@ -24,8 +24,9 @@
 <body>
     <div class="page-container">
         <header class="page-header">
-            <h1 class="page-header__title"><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
-            <div class="page-header__subtitle">Dad, programmer, game designer.</div>
+            <div class="h-card">
+            <h1 class="page-header__title"><a class="p-name u-url" rel="me" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
+            <div class="page-header__subtitle p-note">Dad, programmer, game designer.</div>
             <nav class="page-header__menu">
                 <ul>
                     {{ range .Site.Menus.main }}
@@ -33,11 +34,19 @@
                     {{ end }}
                 </ul>
             </nav>
+            <ul class="page-header__social">
+                {{ range .Site.Params.social }}
+                    <li><a href="{{ .url }}" rel="me"><i class="fa fa-2x {{ .fa_icon }}"></i></a></li>                   
+                {{ end }}
+                <li><a href="/index.xml"><i class="fa fa-2x fa-rss"></i></a></li>
+                <li><a href="mailto:clinton@dreisbach.us" rel="me" class="u-email"><i class="fa fa-2x fa-envelope-o"></i></a></li>
+            </ul>
+            </div>
         </header>
 
         {{ block "main" . }} {{ end }} {{ block "footer" . }}
         <footer class="page-footer">
-            <p>&copy; {{ now.Year }} <a class="h-card" ref="{{ .Site.BaseURL }}">{{ .Site.Params.author }}</a></p>
+            <p>&copy; {{ now.Year }} <a href="{{ .Site.BaseURL }}">{{ .Site.Params.author }}</a></p>
         </footer>
         {{ end }}
     </div>
