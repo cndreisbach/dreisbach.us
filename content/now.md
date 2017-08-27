@@ -9,10 +9,9 @@ I'm an academic director at [The Iron Yard](https://www.theironyard.com/) where 
 
 I'm helping [Don't Waste Durham](http://dontwastedurham.org/), a local group working to reduce consumer waste, with their Green To Go program by building their web and mobile applications.
 
-I'm writing a new role-playing game which I've been writing about [in my newsletter](https://tinyletter.com/prismaticwordspray).
-
 ### Books I've read this year
 
+- _Men Without Women_, Haruki Murakami
 - _After You Believe_, N.T. Wright
 - _Bitch Doctrine_, Laurie Penny
 - _The Book of Joan_, Lidia Yuknavitch
@@ -33,6 +32,7 @@ I'm writing a new role-playing game which I've been writing about [in my newslet
 
 ### Favorite albums I've listened to this year:
 
+- Tribulation, _The Children of the Night_ (2015)
 - Waxahatchee, _Out of the Storm_
 - Blood Command, _Cult Drugs_
 - Julie Miller, _Blue Pony_ (1997)
@@ -41,4 +41,4 @@ I'm writing a new role-playing game which I've been writing about [in my newslet
 - Bleached, _Can You Deal?_
 - King Woman, _Created in the Image of Suffering_
 
-This page last updated 2017-08-17.
+This page last updated 2017-08-27.
