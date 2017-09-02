@@ -11,6 +11,7 @@ I'm helping [Don't Waste Durham](http://dontwastedurham.org/), a local group wor
 
 ### Books I've read this year
 
+- _The Nightmare Stacks_, Charles Strauss
 - _Men Without Women_, Haruki Murakami
 - _After You Believe_, N.T. Wright
 - _Bitch Doctrine_, Laurie Penny
@@ -41,4 +42,4 @@ I'm helping [Don't Waste Durham](http://dontwastedurham.org/), a local group wor
 - Bleached, _Can You Deal?_
 - King Woman, _Created in the Image of Suffering_
 
-This page last updated 2017-08-27.
+This page last updated 2017-09-01.
