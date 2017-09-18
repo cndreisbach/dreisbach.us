@@ -1,8 +1,9 @@
 ---
-title: "What I'm doing right now"
-date: 2017-08-17T19:21:08-04:00
+title: What I'm doing right now
+date: {}
 draft: false
 type: pages
+published: true
 ---
 
 I'm an academic director at [The Iron Yard](https://www.theironyard.com/) where I write curriculum to help adult career-changers become successful developers. I previously worked in the Center for Data Science at [RTI International](http://www.rti.org/), building dashboards with D3 and React and creating agent-based models with [NetLogo](https://ccl.northwestern.edu/netlogo/).
@@ -11,6 +12,7 @@ I'm helping [Don't Waste Durham](http://dontwastedurham.org/), a local group wor
 
 ### Books I've read this year
 
+- _Simply Jesus_, N.T. Wright
 - _The Nightmare Stacks_, Charles Strauss
 - _Men Without Women_, Haruki Murakami
 - _After You Believe_, N.T. Wright
@@ -33,6 +35,7 @@ I'm helping [Don't Waste Durham](http://dontwastedurham.org/), a local group wor
 
 ### Favorite albums I've listened to this year:
 
+- Hardworker, _Go Alone_
 - Tribulation, _The Children of the Night_ (2015)
 - Waxahatchee, _Out of the Storm_
 - Blood Command, _Cult Drugs_
@@ -42,4 +45,4 @@ I'm helping [Don't Waste Durham](http://dontwastedurham.org/), a local group wor
 - Bleached, _Can You Deal?_
 - King Woman, _Created in the Image of Suffering_
 
-This page last updated 2017-09-01.
+This page last updated 2017-09-18.
