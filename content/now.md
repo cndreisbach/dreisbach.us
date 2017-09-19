@@ -1,9 +1,8 @@
 ---
-title: What I'm doing right now
-date: 'Thu Aug 17 2017 19:21:08 GMT-0400 (EDT)'
+title: "What I'm doing right now"
+date: 2017-08-17T19:21:08-04:00
 draft: false
 type: pages
-published: true
 ---
 
 I'm an academic director at [The Iron Yard](https://www.theironyard.com/) where I write curriculum to help adult career-changers become successful developers. I previously worked in the Center for Data Science at [RTI International](http://www.rti.org/), building dashboards with D3 and React and creating agent-based models with [NetLogo](https://ccl.northwestern.edu/netlogo/).
