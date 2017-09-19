@@ -4,6 +4,7 @@ title = "Clinton Dreisbach"
 theme = "blank"
 paginate = 7
 sectionPagesMenu = "main"
+metaDataFormat = "yaml"
 
 [author]
 name = "Clinton Dreisbach"

@@ -1,0 +1,38 @@
+prose:
+  rooturl: 'content'
+  media: 'static/images'
+  metadata:
+    content:
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          placeholder: "The title that your readers see on the page."
+      - name: "description"
+        field:
+          element: "textarea"
+          label: "Description"
+          placeholder: "The meta description - often used by Google in search results page."
+      - name: "date"
+        field:
+          element: "text"
+          label: "Date"
+          placeholder: "Date in format yyyy-mm-dd."
+          value: CURRENT_DATETIME
+      - name: "draft"
+        field:
+          element: "checkbox"
+          label: "Draft"
+      - name: "aliases"
+        field:
+          element: "hidden"
+      - name: "type"
+        field:
+          element: "text"
+          label: "Content type, defaults to directory name"
+    static:
+      - name: "url"
+        field:
+          element: "text"
+          label: "URL"
+          value: ""
