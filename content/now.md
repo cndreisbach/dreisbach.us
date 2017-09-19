@@ -1,9 +1,10 @@
 ---
-title: "What I'm doing right now"
-date: 2017-08-17T19:21:08-04:00
-draft: false
+title: What I'm doing right now
+date: 2017-08-17 19:21:08 -0400
 type: pages
+
 ---
+
 
 I'm an academic director at [The Iron Yard](https://www.theironyard.com/) where I write curriculum to help adult career-changers become successful developers. I previously worked in the Center for Data Science at [RTI International](http://www.rti.org/), building dashboards with D3 and React and creating agent-based models with [NetLogo](https://ccl.northwestern.edu/netlogo/).
 
@@ -11,37 +12,64 @@ I'm helping [Don't Waste Durham](http://dontwastedurham.org/), a local group wor
 
 ### Books I've read this year
 
-- _Simply Jesus_, N.T. Wright
-- _The Nightmare Stacks_, Charles Strauss
-- _Men Without Women_, Haruki Murakami
-- _After You Believe_, N.T. Wright
-- _Bitch Doctrine_, Laurie Penny
-- _The Book of Joan_, Lidia Yuknavitch
-- _A History of the Future_, James Howard Kunstler
-- _The Witch of Hebron_, James Howard Kunstler
-- _World Made By Hand_, James Howard Kunstler
-- _Help Thanks Wow_, Anne Lamott
-- _Rosalie Lightning_, Tom Hart
-- _A Prayer Journal_, Flannery O'Connor
-- _A People's History of Christianity_, Diana Butler Bass
-- _The Unsettlers_, Mark Sundeen
-- _The Man Who Quit Money_, Mark Sundeen
-- _The Nightmares Underneath_, Johnstone Metzger
-- _Zero Bugs and Program Faster_, Kate Thompson
-- _Julian Comstock_, Robert Charles Wilson
-- _To the Bright Edge of the World_, Eowyn Ivey
-- _Simply Christian_, N.T. Wright
+* *Simply Jesus*, N.T. Wright
+
+* *The Nightmare Stacks*, Charles Strauss
+
+* *Men Without Women*, Haruki Murakami
+
+* *After You Believe*, N.T. Wright
+
+* *Bitch Doctrine*, Laurie Penny
+
+* *The Book of Joan*, Lidia Yuknavitch
+
+* *A History of the Future*, James Howard Kunstler
+
+* *The Witch of Hebron*, James Howard Kunstler
+
+* *World Made By Hand*, James Howard Kunstler
+
+* *Help Thanks Wow*, Anne Lamott
+
+* *Rosalie Lightning*, Tom Hart
+
+* *A Prayer Journal*, Flannery O'Connor
+
+* *A People's History of Christianity*, Diana Butler Bass
+
+* *The Unsettlers*, Mark Sundeen
+
+* *The Man Who Quit Money*, Mark Sundeen
+
+* *The Nightmares Underneath*, Johnstone Metzger
+
+* *Zero Bugs and Program Faster*, Kate Thompson
+
+* *Julian Comstock*, Robert Charles Wilson
+
+* *To the Bright Edge of the World*, Eowyn Ivey
+
+* *Simply Christian*, N.T. Wright
 
 ### Favorite albums I've listened to this year:
 
-- Hardworker, _Go Alone_
-- Tribulation, _The Children of the Night_ (2015)
-- Waxahatchee, _Out of the Storm_
-- Blood Command, _Cult Drugs_
-- Julie Miller, _Blue Pony_ (1997)
-- Margo Price, _Midwestern Farmer's Daughter_ (2016)
-- Valerie June, _The Order of Time_
-- Bleached, _Can You Deal?_
-- King Woman, _Created in the Image of Suffering_
+* Hardworker, *Go Alone*
 
-This page last updated 2017-09-18.
+* Tribulation, *The Children of the Night* (2015)
+
+* Waxahatchee, *Out of the Storm*
+
+* Blood Command, *Cult Drugs*
+
+* Julie Miller, *Blue Pony* (1997)
+
+* Margo Price, *Midwestern Farmer's Daughter* (2016)
+
+* Valerie June, *The Order of Time*
+
+* Bleached, *Can You Deal?*
+
+* King Woman, *Created in the Image of Suffering*
+
+This page last updated 2017-09-17.
