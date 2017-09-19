@@ -11,26 +11,57 @@ I'm an academic director at [The Iron Yard](https://www.theironyard.com/) where 
 I'm helping [Don't Waste Durham](http://dontwastedurham.org/), a local group working to reduce consumer waste, with their Green To Go program by building their web and mobile applications.
 
 ### Books I've read this year
-*null*
+
+* *Simply Jesus*, N.T. Wright
+
+* *The Nightmare Stacks*, Charles Strauss
+
+* *Men Without Women*, Haruki Murakami
+
+* *After You Believe*, N.T. Wright
+
+* *Bitch Doctrine*, Laurie Penny
+
+* *The Book of Joan*, Lidia Yuknavitch
+
+* *A History of the Future*, James Howard Kunstler
+
+* *The Witch of Hebron*, James Howard Kunstler
+
+* *World Made By Hand*, James Howard Kunstler
+
+* *Help Thanks Wow*, Anne Lamott
+
+* *Rosalie Lightning*, Tom Hart
+
+* *A Prayer Journal*, Flannery O'Connor
+
+* *A People's History of Christianity*, Diana Butler Bass
+
+* *The Unsettlers*, Mark Sundeen
+
+* *The Man Who Quit Money*, Mark Sundeen
+
+* *The Nightmares Underneath*, Johnstone Metzger
+
+* *Zero Bugs and Program Faster*, Kate Thompson
+
+* *Julian Comstock*, Robert Charles Wilson
+
+* *To the Bright Edge of the World*, Eowyn Ivey
+
+* *Simply Christian*, N.T. Wright
 
 ### Favorite albums I've listened to this year:
 
 * Hardworker, *Go Alone*
-
 * Tribulation, *The Children of the Night*<span style="font-size: 1rem;"> (2015)</span>
-
 * Waxahatchee, *Out of the Storm*
-
 * Blood Command, *Cult Drugs*
-
 * Julie Miller, *Blue Pony*<span style="font-size: 1rem;"> (1997)</span>
-
 * Margo Price, *Midwestern Farmer's Daughter*<span style="font-size: 1rem;"> (2016)</span>
-
 * Valerie June, *The Order of Time*
-
 * Bleached, *Can You Deal?*
-
 * King Woman, *Created in the Image of Suffering*
 
 This page last updated 2017-09-17.
