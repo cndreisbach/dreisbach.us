@@ -18,7 +18,6 @@ prose:
           element: "text"
           label: "Date"
           placeholder: "Date in format yyyy-mm-dd."
-          value: CURRENT_DATETIME
       - name: "draft"
         field:
           element: "checkbox"
