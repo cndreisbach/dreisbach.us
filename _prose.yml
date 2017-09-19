@@ -13,11 +13,6 @@ prose:
           element: "textarea"
           label: "Description"
           placeholder: "The meta description - often used by Google in search results page."
-      - name: "date"
-        field:
-          element: "text"
-          label: "Date"
-          placeholder: "Date in format yyyy-mm-dd."
       - name: "draft"
         field:
           element: "checkbox"
