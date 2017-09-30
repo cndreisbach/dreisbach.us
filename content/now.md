@@ -11,6 +11,7 @@ I'm helping [Don't Waste Durham](http://dontwastedurham.org/), a local group wor
 
 ### Books I've read this year
 
+* *Life in Code*, Ellen Ullman
 * *Simply Jesus*, N.T. Wright
 * *The Nightmare Stacks*, Charles Strauss
 * *Men Without Women*, Haruki Murakami
@@ -44,4 +45,4 @@ I'm helping [Don't Waste Durham](http://dontwastedurham.org/), a local group wor
 * Bleached, *Can You Deal?*
 * King Woman, *Created in the Image of Suffering*
 
-This page last updated 2017-09-18.
+This page last updated 2017-09-29.
