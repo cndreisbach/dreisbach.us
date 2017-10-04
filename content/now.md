@@ -11,6 +11,8 @@ I'm helping [Don't Waste Durham](http://dontwastedurham.org/), a local group wor
 
 ### Books I've read this year
 
+* *Killers of the Flower Moon: The Osage Murders and the Birth of the FBI*, David Grann
+* *American War*, Omar El Akkad
 * *Life in Code*, Ellen Ullman
 * *Simply Jesus*, N.T. Wright
 * *The Nightmare Stacks*, Charles Strauss
@@ -27,7 +29,6 @@ I'm helping [Don't Waste Durham](http://dontwastedurham.org/), a local group wor
 * *A People's History of Christianity*, Diana Butler Bass
 * *The Unsettlers*, Mark Sundeen
 * *The Man Who Quit Money*, Mark Sundeen
-* *The Nightmares Underneath*, Johnstone Metzger
 * *Zero Bugs and Program Faster*, Kate Thompson
 * *Julian Comstock*, Robert Charles Wilson
 * *To the Bright Edge of the World*, Eowyn Ivey
@@ -45,4 +46,4 @@ I'm helping [Don't Waste Durham](http://dontwastedurham.org/), a local group wor
 * Bleached, *Can You Deal?*
 * King Woman, *Created in the Image of Suffering*
 
-This page last updated 2017-09-29.
+This page last updated 2017-10-02.
