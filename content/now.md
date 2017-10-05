@@ -11,6 +11,7 @@ I'm helping [Don't Waste Durham](http://dontwastedurham.org/), a local group wor
 
 ### Books I've read this year
 
+* *Lovecraft Country*, Matt Ruff
 * *Killers of the Flower Moon: The Osage Murders and the Birth of the FBI*, David Grann
 * *American War*, Omar El Akkad
 * *Life in Code*, Ellen Ullman
@@ -46,4 +47,4 @@ I'm helping [Don't Waste Durham](http://dontwastedurham.org/), a local group wor
 * Bleached, *Can You Deal?*
 * King Woman, *Created in the Image of Suffering*
 
-This page last updated 2017-10-02.
+This page last updated 2017-10-05.
