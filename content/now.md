@@ -5,12 +5,14 @@ type: pages
 draft: false
 ---
 
-I'm an academic director at [The Iron Yard](https://www.theironyard.com/) where I write curriculum to help adult career-changers become successful developers. I previously worked in the Center for Data Science at [RTI International](http://www.rti.org/), building dashboards with D3 and React and creating agent-based models with [NetLogo](https://ccl.northwestern.edu/netlogo/).
+I'm starting a company to help train software developers. Previously, I was an academic director at [The Iron Yard](https://www.theironyard.com/) where I wrote curriculum.
 
 I'm helping [Don't Waste Durham](http://dontwastedurham.org/), a local group working to reduce consumer waste, with their Green To Go program by building their web and mobile applications.
 
 ### Books I've read this year
 
+* *Unbelievable*, Katy Tur
+* *The Third Reconstruction*, Rev. Dr. William Barber II with Jonathan Wilson-Hartgrove
 * *The Underground Railroad*, Colson Whitehead
 * *Lovecraft Country*, Matt Ruff
 * *Killers of the Flower Moon: The Osage Murders and the Birth of the FBI*, David Grann
@@ -48,4 +50,4 @@ I'm helping [Don't Waste Durham](http://dontwastedurham.org/), a local group wor
 * Bleached, *Can You Deal?*
 * King Woman, *Created in the Image of Suffering*
 
-This page last updated 2017-10-17.
+This page last updated 2017-10-30.
