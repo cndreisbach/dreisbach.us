@@ -11,6 +11,7 @@ I'm helping [Don't Waste Durham](http://dontwastedurham.org/), a local group wor
 
 ### Books I've read this year
 
+* *Sinners in the Hands of a Loving God*, Brian Zahnd
 * *Unbelievable*, Katy Tur
 * *The Third Reconstruction*, Rev. Dr. William Barber II with Jonathan Wilson-Hartgrove
 * *The Underground Railroad*, Colson Whitehead
@@ -50,4 +51,4 @@ I'm helping [Don't Waste Durham](http://dontwastedurham.org/), a local group wor
 * Bleached, *Can You Deal?*
 * King Woman, *Created in the Image of Suffering*
 
-This page last updated 2017-10-30.
+This page last updated 2017-10-31.
