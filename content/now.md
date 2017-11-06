@@ -11,6 +11,7 @@ I'm helping [Don't Waste Durham](http://dontwastedurham.org/), a local group wor
 
 ### Books I've read this year
 
+* *In the Hands of a Happy God: The "No-Hellers" of Central Appalachia*, Howard Dorgan
 * *Sinners in the Hands of a Loving God*, Brian Zahnd
 * *Unbelievable*, Katy Tur
 * *The Third Reconstruction*, Rev. Dr. William Barber II with Jonathan Wilson-Hartgrove
