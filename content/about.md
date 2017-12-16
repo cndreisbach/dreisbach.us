@@ -7,7 +7,7 @@ type: pages
 
 ### I'm Clinton, and this is my personal website.
 
-I'm a software developer and educator in Durham, NC. I am an academic director at [The Iron Yard](https://www.theironyard.com/).
+I'm a software developer and educator in Durham, NC. I am a co-founder and the CTO of [Momentum Learning](http://momentumlearn.com/).
 
 I specialize in Python, JavaScript, Clojure, and Racket, but I'm a polyglot and don't much care what language I'm working in as long as it's right for the problem. I'm really interested in spending some time with Perl 6, R, and Common Lisp in the future.
 
@@ -17,10 +17,10 @@ I'm ambitextrous, but currently favor Emacs over other text editors. [Check out 
 
 You can find me online at:
 
-* [Twitter](https://twitter.com/cndreisbach) 
-* [GitHub](https://github.com/cndreisbach/) 
-* [Pinboard](https://pinboard.in/u:crnixon/) 
-* [Keybase](https://keybase.io/cndreisbach) 
+* [Twitter](https://twitter.com/cndreisbach)
+* [GitHub](https://github.com/cndreisbach/)
+* [Pinboard](https://pinboard.in/u:crnixon/)
+* [Keybase](https://keybase.io/cndreisbach)
 
 
 ### About this website

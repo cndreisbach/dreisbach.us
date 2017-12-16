@@ -5,6 +5,8 @@ theme = "blank"
 paginate = 7
 sectionPagesMenu = "main"
 metaDataFormat = "yaml"
+pygmentsCodeFences = true
+pygmentsStyle = "friendly"
 
 [author]
 name = "Clinton Dreisbach"
