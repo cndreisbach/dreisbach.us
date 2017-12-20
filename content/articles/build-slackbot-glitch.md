@@ -90,7 +90,7 @@ BOT_TOKEN=xoxb-12345-abcd
 
 Now we can finally update our code. Edit `server.js`. Here's my example of responding to a `/hello` slash command with hello in a random language.
 
-```js
+```
 // server.js
 const tinyspeck = require('tinyspeck');
 
