@@ -13,6 +13,7 @@ I'm helping [Don't Waste Durham](http://dontwastedurham.org/), a local group wor
 
 * *Warlock*, Oakley Hall
 * *The Delirium Brief*, Charles Stross
+* *Beginning Spring Boot 2*, K. Siva Prasad Reddy
 * *In the Hands of a Happy God: The "No-Hellers" of Central Appalachia*, Howard Dorgan
 * *Sinners in the Hands of a Loving God*, Brian Zahnd
 * *Unbelievable*, Katy Tur
