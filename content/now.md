@@ -11,6 +11,7 @@ I'm helping [Don't Waste Durham](http://dontwastedurham.org/), a local group wor
 
 ### Books I've read this year
 
+* *Rogue Male*, Geoffrey Household
 * *Warlock*, Oakley Hall
 * *The Delirium Brief*, Charles Stross
 * *Beginning Spring Boot 2*, K. Siva Prasad Reddy
