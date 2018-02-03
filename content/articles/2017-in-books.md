@@ -5,6 +5,8 @@ date: 2017-12-27T20:38:41-08:00
 
 I had a goal this year of reading 52 books, which was overly ambitious -- I only read 31. I'm glad I made the plan, though, because it made me keep a list, which I've never done before.
 
+<!--more-->
+
 ## Fiction
 
 * *To the Bright Edge of the World*, Eowyn Ivey
@@ -57,8 +59,3 @@ Other books I particularly enjoyed are *Simply Christian*, which helped me overc
 * *Beginning Spring Boot 2*, K. Siva Prasad Reddy
 
 It's strange how few technical books I read. *Zero Bugs and Program Faster* was a must-read for its overly confident title alone. It was pretty great. Laurie Penny and Ellen Ullman are fantastic writers and their books rocked me.
-
-
-
-
-
