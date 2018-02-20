@@ -5,11 +5,26 @@ type: pages
 draft: false
 ---
 
-I'm starting a company to help train software developers. Previously, I was an academic director at [The Iron Yard](https://www.theironyard.com/) where I wrote curriculum.
+I've [started a company to help train software developers](http://www.momentumlearn.com/). Previously, I was an academic director at [The Iron Yard](https://www.theironyard.com/) where I wrote curriculum.
 
-I'm helping [Don't Waste Durham](http://dontwastedurham.org/), a local group working to reduce consumer waste, with their Green To Go program by building their web and mobile applications.
+I've been playing my baritone ukulele a lot.
 
 ### Books I've read this year
+
+* *Freeware*, Rudy Rucker
+* *Treasure Island*, Robert Louis Stevenson (Great Illustrated Classics version, kids)
+* *The Boy on the Bridge*, M.R. Carey
+* *Vintage Saints and Sinners*, Karen Wright Marsh
+* *Catwings*, Ursula K. Le Guin (kids)
+* *Lafayette in the Somewhat United States*, Sarah Vowell
+* *Where Late the Sweet Birds Sang*, Kate Wilhelm
+* *Searching for Sunday*, Rachel Held Evans
+
+### Favorite albums I've listened to this year
+
+* *What A Time to Be Alive*, Superchunk
+
+### Books I read in 2017
 
 * *Rogue Male*, Geoffrey Household
 * *Warlock*, Oakley Hall
@@ -44,7 +59,7 @@ I'm helping [Don't Waste Durham](http://dontwastedurham.org/), a local group wor
 * *To the Bright Edge of the World*, Eowyn Ivey
 * *Simply Christian*, N.T. Wright
 
-### Favorite albums I've listened to this year:
+### Favorite albums I listened to in 2017:
 
 * Hardworker, *Go Alone*
 * Tribulation, *The Children of the Night* (2015)
@@ -56,4 +71,4 @@ I'm helping [Don't Waste Durham](http://dontwastedurham.org/), a local group wor
 * Bleached, *Can You Deal?*
 * King Woman, *Created in the Image of Suffering*
 
-This page last updated 2017-10-31.
+This page last updated 2018-02-20.
