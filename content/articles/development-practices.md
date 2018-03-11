@@ -1,7 +1,7 @@
 ---
 title: "Development Practices"
 date: 2018-03-10T19:15:25-05:00
-draft: true
+draft: false
 categories: ["momentum"]
 ---
 
@@ -23,3 +23,5 @@ There are certain skills you're expected to have as a developer that you learn f
 * Whiteboarding
 
 That last one might be controversial to use in interviews, but I haven't had a job in years where I didn't have to write code on a whiteboard almost daily, or at least design systems on a whiteboard.
+
+Designing Momentum has been a chance to rethink code education. I can't wait to share what we have with our first batch of immersive students.
