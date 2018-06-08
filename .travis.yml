@@ -1,10 +1,5 @@
-language: go
-go:
-  - master # This uses automatically the latest version of go
-install:
-  - go get github.com/spf13/hugo # This provides the latest version of Hugo to Travis CI
-script:
-  - hugo # This commands builds your website on travis
+dist: trusty
+sudo: required
 git:
   depth: 10
 branches:
@@ -12,6 +7,11 @@ branches:
   - master
 before_install:
   - openssl aes-256-cbc -K $encrypted_da1f0619252d_key -iv $encrypted_da1f0619252d_iv -in travis_ci.enc -out /tmp/travis_ci -d
+install:
+  - wget -O /tmp/hugo.deb https://github.com/gohugoio/hugo/releases/download/v0.41/hugo_0.41_Linux-64bit.deb
+  - sudo dpkg -i /tmp/hugo.deb
+script:
+  - hugo
 before_deploy:
   - eval "$(ssh-agent -s)"
   - chmod 600 /tmp/travis_ci
