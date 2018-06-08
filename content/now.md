@@ -11,6 +11,22 @@ I've been playing my baritone ukulele a lot.
 
 ### Books I've read this year
 
+* *The Magician's Nephew*, C.S. Lewis (kids)
+* *Reconstructing the Gospel*, Jonathan Wilson-Hartgrove
+* *Lean Out: The Struggle for Gender Equality in Tech and Start-Up Culture*, Elissa Shevinsky 
+* *How to Stop Time*, Matt Haig
+* *A Wizard of Earthsea*, Ursula K. Le Guin (kids, re-read)
+* *The Power*, Naomi Alderman
+* *After the Flare*, Deji Bryce Olukotun
+* *Barbary Station*, R.E. Stearns
+* *Jesus Land*, Julia Scheeres
+* *The Christians*, Lucas Hnath (stageplay)
+* *The Wanderers*, Meg Howrey
+* *Abel's Island*, William Steig (kids)
+* *A Mind for Numbers*, Barbara Oakley
+* *The Letter for the King*, Tonke Dragt (kids)
+* *Red Clocks*, Leni Zumas
+* *The Gospel According to Jesus*, Stephen Mitchell
 * *Freeware*, Rudy Rucker
 * *Treasure Island*, Robert Louis Stevenson (Great Illustrated Classics version, kids)
 * *The Boy on the Bridge*, M.R. Carey
