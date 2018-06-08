@@ -1,5 +1,10 @@
-dist: trusty
-sudo: required
+language: go
+go:
+  - master # This uses automatically the latest version of go
+install:
+  - go get github.com/spf13/hugo # This provides the latest version of Hugo to Travis CI
+script:
+  - hugo # This commands builds your website on travis
 git:
   depth: 10
 branches:
@@ -7,18 +12,11 @@ branches:
   - master
 before_install:
   - openssl aes-256-cbc -K $encrypted_da1f0619252d_key -iv $encrypted_da1f0619252d_iv -in travis_ci.enc -out /tmp/travis_ci -d
-install:
-  - wget -O /tmp/hugo.deb https://github.com/spf13/hugo/releases/download/v0.21/hugo_0.21_Linux-64bit.deb
-  - sudo dpkg -i /tmp/hugo.deb
-script:
-  - hugo
 before_deploy:
   - eval "$(ssh-agent -s)"
   - chmod 600 /tmp/travis_ci
   - ssh-add /tmp/travis_ci
 deploy:
-  provider: script
-  skip_cleanup: true
-  script: rsync -av --delete-after -e "ssh -o StrictHostKeyChecking=no" $TRAVIS_BUILD_DIR/public/ homebase@homebase.dreisbach.us:/var/www/static_web/
-  on:
-    branch: master
+  provider: firebase
+  token:
+    secure: tTGnsx7ubpVVa8vAfBWR1OlGq0uX7kNFiGMp6JKFiW6TwmT1YAof1FMXItbMuqp8nq41IqlaRSRrInGVFffHghim4gny8Cpesw4Cj7CLuBnfyblE9q+sa6PFhq1mD4pDxl2bEqzpA5n+Tt6EoqySsYxXoJUCTIe22+j155tME93kNIQ17oBppfJFWZz/M9is1ypKoSlGrHDAHylfHDYXPpovH5CQxOSqERpHGQ2SGheLKCLM7Wh5ryZqYqDzWgzI2Wr1IwpUTGo1otLbC8FTXO0VwExSf/aTbpROgOpVhy6bOhDBS9ei6GGlA80BB7g8cLQSqtfXs3NrmC3DfJhqHz8WTKutnbEgw6Zuu7k6dHbidhwSZ9cAksBcDZvcI53vKJKknlMX0p57FCIhyIaCRm01ex1eS+edLBcFZWScm5miGwmu0LZICq2veBFKWL7ctsWhzCI85GWhmmw06CQmEErAIoTkOB/b9/IUEMpVWIq9P0bQU7jl/ZZ5eDeMQUJu+KweuwDTgSdoQOfTm16rxs/mZXn1bt0+i/vKNqwU8ogvBO+kDT36bMizoZPVkE6WLcZXbp1EiTRvkIJnTREicLcEX4132t01G201Wgw+NBkqosipxUSIQP5zFoLKWCdSprEHNbV2sfqr8KlGrQ7KIpmwrZ0z6EQEjtRJMXSY+eI=
