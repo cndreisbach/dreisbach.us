@@ -11,6 +11,8 @@ I've been playing my baritone ukulele a lot.
 
 ### Books I've read this year
 
+* *Arm of the Sphinx*, Josiah Bancroft
+* *Senlin Ascends*, Josiah Bancroft
 * *The Magician's Nephew*, C.S. Lewis (kids)
 * *Reconstructing the Gospel*, Jonathan Wilson-Hartgrove
 * *Lean Out: The Struggle for Gender Equality in Tech and Start-Up Culture*, Elissa Shevinsky 
