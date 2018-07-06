@@ -40,6 +40,8 @@ I've been playing my baritone ukulele a lot.
 
 ### Favorite albums I've listened to this year
 
+
+* *Evergreen*, Audrey Assad
 * *What A Time to Be Alive*, Superchunk
 
 ### Books I read in 2017
