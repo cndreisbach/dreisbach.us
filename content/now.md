@@ -11,6 +11,9 @@ I've been playing my baritone ukulele a lot.
 
 ### Books I've read this year
 
+* *Compulsory Games*, Robert Aickman
+* *Chasing Hillary*, Amy Chozick
+* *The Book of Three*, Lloyd Alexander (kids, re-read)
 * *Arm of the Sphinx*, Josiah Bancroft
 * *Senlin Ascends*, Josiah Bancroft
 * *The Magician's Nephew*, C.S. Lewis (kids)
