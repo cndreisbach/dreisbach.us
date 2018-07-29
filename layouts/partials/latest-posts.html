@@ -5,7 +5,7 @@
         </div>
         <div>
             <ul>
-                {{ range first 5 .Site.Pages }}
+                {{ range first 5 (where .Site.Pages "Type" "in" .Site.Params.mainSections)}}
                 <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
                 {{ end }}
             </ul>
