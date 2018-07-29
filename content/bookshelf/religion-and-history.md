@@ -37,6 +37,10 @@ First up, my religion and history sections.
 * Dalai Lama, *Beyond Religion*
 * Charles Darwin, *The Voyage of the H.M.S. Beagle* 
 * Kenneth Davis, _Don't Know Much About the Civil War_
+* Rachel Held Evans, _Inspired_
+* M. Guizot, *The History of France*
+* Josephus, *The Works of Josephus*
+* Brian D. McLaren, *We Make the Road By Walking*
 * James McPherson, _Battle Cry of Freedom_
 * Edmund Morgan, *Benjamin Franklin*
 * Allan Nevins, _Ordeal of the Union_ (8-volume set)
