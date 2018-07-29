@@ -29,7 +29,7 @@
             <div class="page-header__subtitle p-note">Dad, programmer, game designer.</div>
             <nav class="page-header__menu">
                 <ul>
-                    {{ range .Site.Menus.main }}
+                    {{ range .Site.Menus.sidebar }}
                         <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
                     {{ end }}
                 </ul>

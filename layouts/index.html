@@ -26,7 +26,7 @@
 		</div>
 	</section>
 	<section id="articles" class="article-list">
-        {{ $paginator := .Paginate (where .Data.Pages "Type" "!=" "pages") }}
+    {{ $paginator := .Paginate (where .Data.Pages "Type" "in" .Site.Params.mainSections) }}
 		{{ range sort $paginator.Pages }}
 		{{ .Render "summary" }}
 		{{ end }}

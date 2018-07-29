@@ -13,7 +13,7 @@
         {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
     {{ end }}
 
-    {{ $paginator := .Paginate (where .Data.Pages "Type" "!=" "pages") }}
+    {{ $paginator := .Paginate (where .Data.Pages "Type" "in" .Site.Params.mainSections) }}
     {{ range $paginator.Pages }}
     <item>
       <title>{{ .Title }}</title>

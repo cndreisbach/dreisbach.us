@@ -14,7 +14,8 @@ email = "clinton@dreisbach.us"
 
 [params]
 author = "Clinton Dreisbach"
-copyright = "&copy; Clinton Dreisbach 2017"
+copyright = "&copy; Clinton Dreisbach 2018"
+mainSections = ["articles", "notes"]
 
 [params.highlight]
 style = "github"
@@ -28,34 +29,34 @@ fa_icon = "fa-github"
 url = "https://twitter.com/cndreisbach"
 fa_icon = "fa-twitter"
 
-[[menu.main]]
+[[menu.sidebar]]
 name = "Articles"
 weight = 10
 identifier = "articles"
 url = "/articles/"
 
-[[menu.main]]
+[[menu.sidebar]]
 name = "Notes"
 weight = 20
 identifier = "notes"
 url = "/notes/"
 
-[[menu.main]]
+[[menu.sidebar]]
 name = "Games"
 weight = 30
 url = "/games/"
 
-[[menu.main]]
+[[menu.sidebar]]
 name = "Projects"
 weight = 35
 url = "/projects/"
 
-[[menu.main]]
+[[menu.sidebar]]
 name = "About"
 weight = 40
 url = "/about/"
 
-[[menu.main]]
+[[menu.sidebar]]
 name= "Now"
 weight = 50
 url = "/now/"
