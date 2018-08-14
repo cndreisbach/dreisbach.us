@@ -11,6 +11,10 @@ I've been playing my baritone ukulele a lot.
 
 ### Books I've read this year
 
+* *Lila*, Marilynne Robinson
+* *Home*, Marilynne Robinson
+* *Gilead*, Marilynne Robinson
+* *Wearing God*, Lauren Winner
 * *Compulsory Games*, Robert Aickman
 * *Chasing Hillary*, Amy Chozick
 * *The Book of Three*, Lloyd Alexander (kids, re-read)
