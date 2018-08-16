@@ -11,6 +11,7 @@ I've been playing my baritone ukulele a lot.
 
 ### Books I've read this year
 
+* *The 2020 Commission Report on the North Korean Nuclear Attacks Against the United States*, Jeffrey Lewis
 * *Lila*, Marilynne Robinson
 * *Home*, Marilynne Robinson
 * *Gilead*, Marilynne Robinson
