@@ -11,6 +11,7 @@ I've been playing my baritone ukulele a lot.
 
 ### Books I've read this year
 
+* *The Dark Crystal*, Lloyd Alexander (kids)
 * *The 2020 Commission Report on the North Korean Nuclear Attacks Against the United States*, Jeffrey Lewis
 * *Lila*, Marilynne Robinson
 * *Home*, Marilynne Robinson
@@ -48,9 +49,9 @@ I've been playing my baritone ukulele a lot.
 
 ### Favorite albums I've listened to this year
 
-
 * *Evergreen*, Audrey Assad
 * *What A Time to Be Alive*, Superchunk
+* *Lionheart*, H.C. McEntire
 
 ### Books I read in 2017
 
