@@ -25,10 +25,6 @@ languages = ["ruby", "python", "javascript", "bash"]
 url = "https://github.com/cndreisbach"
 fa_icon = "fa-github"
 
-[[params.social]]
-url = "https://twitter.com/cndreisbach"
-fa_icon = "fa-twitter"
-
 [[menu.sidebar]]
 name = "Articles"
 weight = 10
