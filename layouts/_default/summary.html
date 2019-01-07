@@ -1,7 +1,7 @@
 <!-- - -*- engine:go -*- -->
 <article class="h-entry">
-	<h2 class="p-name"><a class="u-url u-uid" href="{{ .Permalink }}">{{ .Title }}</a></h2>
-	<time class="dt-published" datetime="{{ .Date.Format "2006-01-02T15:04" }}">{{ .Date.Format "2 Jan 2006" }}</time>
+	<h2 class="p-name"><a class="u-url u-uid" href="{{ .Permalink }}">{{ .Title }}</a> <small><time class="dt-published" datetime="{{ .Date.Format "2006-01-02T15:04" }}">{{ .Date.Format "2 Jan 2006" }}</time></small></h2>
+	<p></p>
 	{{ range .Params.tags }}
 	<a class="p-category" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
 	{{ end }}

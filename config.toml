@@ -53,7 +53,7 @@ name = "About"
 weight = 40
 url = "/about/"
 
-[[menu.sidebar]]
-name= "Now"
-weight = 50
-url = "/now/"
+# [[menu.sidebar]]
+# name= "Now"
+# weight = 50
+# url = "/now/"
