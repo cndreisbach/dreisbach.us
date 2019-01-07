@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ .Title }}</title>
+    <title>{{ if (eq .URL "/") }}{{ .Title }}{{ else }}Clinton Dreisbach - {{ .Title }}{{ end }}</title>
     {{ with .Site.Params.description }}
     <meta name="description" content="{{ . }}">
     {{ end }}
