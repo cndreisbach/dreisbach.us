@@ -40,6 +40,7 @@ url = "/notes/"
 [[menu.sidebar]]
 name = "Games"
 weight = 30
+identifier = "games"
 url = "/games/"
 
 [[menu.sidebar]]

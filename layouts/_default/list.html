@@ -1,6 +1,6 @@
 {{ define "main" }}
 <!-- - -*- engine:go -*- -->
-<main class="article-list">
+<main>
 	{{ range sort .Paginator.Pages }}
 		{{ .Render "summary" }}
 	{{ end }}

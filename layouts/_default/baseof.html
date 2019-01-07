@@ -13,7 +13,7 @@
     {{ end }}
     <link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32" />
     <link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16" />
-    <link rel="stylesheet" href="/css/shoelace.css">
+    <link rel="stylesheet" href="/css/sixtyseven.css">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css" />
     {{ if .RSSLink }}
@@ -22,25 +22,32 @@
 </head>
 
 <body>
-    <div class="page-container">
-        <header class="page-header">
+    <div>
+        <header>
             <div class="h-card">
-            <h1 class="page-header__title"><a class="p-name u-url" rel="me" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
-            <div class="page-header__subtitle p-note">Dad, programmer, game designer.</div>
-            <nav class="page-header__menu">
-                <ul>
-                    {{ range .Site.Menus.sidebar }}
-                        <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+              <h1>
+                <a class="p-name u-url" rel="me" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+                <small>Dad, programmer, game designer.</small>
+              </h1>
+              
+              <nav>
+                  <ul>
+                      {{ $currentPage := . }}
+
+                      {{ range .Site.Menus.sidebar }}
+                        {{ if or ($currentPage.IsMenuCurrent "sidebar" .) ($currentPage.HasMenuCurrent "sidebar" .) (eq $currentPage.URL .URL) }}
+                          <li><b>{{ .Name }}</b></li>
+                        {{ else }}
+                          <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+                        {{ end }}
+                      {{ end }}
+                      {{ range .Site.Params.social }}
+                        <li><a href="{{ .url }}" rel="me"><i class="fa fa-1x {{ .fa_icon }}"></i></a></li>                   
                     {{ end }}
-                </ul>
-            </nav>
-            <ul class="page-header__social">
-                {{ range .Site.Params.social }}
-                    <li><a href="{{ .url }}" rel="me"><i class="fa fa-2x {{ .fa_icon }}"></i></a></li>                   
-                {{ end }}
-                <li><a href="/index.xml"><i class="fa fa-2x fa-rss"></i></a></li>
-                <li><a href="mailto:clinton@dreisbach.us" rel="me" class="u-email"><i class="fa fa-2x fa-envelope-o"></i></a></li>
-            </ul>
+                    <li><a href="/index.xml"><i class="fa fa-1x fa-rss"></i></a></li>
+                    <li><a href="mailto:clinton@dreisbach.us" rel="me" class="u-email"><i class="fa fa-1x fa-envelope-o"></i></a></li>
+                  </ul>                
+              </nav>         
             </div>
         </header>
 
