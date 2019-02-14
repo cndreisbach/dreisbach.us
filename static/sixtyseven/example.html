@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Example page - SixtySeven</title>
+  <link rel="stylesheet" href="sixtyseven.css">
+</head>
+
+<body>
+  <h1>
+    SixtySeven CSS
+    <small>a set of basic styles for simple content</small>
+  </h1>
+
+  <p>
+    SixtySeven is a set of styles that should work well for standard HTML documents, including ones with form elements.
+    The selectors
+    are all tag-based. You will not need to use classes for SixtySeven to work.
+  </p>
+
+  <h2>Inspiration</h2>
+
+  <p>
+    SixtySeven is named after
+    <a href="http://www.habitat67.com/">Habitat 67</a>, my favorite example of
+    <a href="https://en.wikipedia.org/wiki/Brutalist_architecture">Brutalist architecture</a>.
+  </p>
+
+  <figure>
+    <img src="images/habitat67.jpg" alt="Habitat 67">
+    <figcaption>Habitat 67, Montreál, Canada</figcaption>
+  </figure>
+
+  <h2>Examples</h2>
+
+  <section id="inline">
+    <h3>Inline styles</h3>
+
+    <p>An underused element is <mark>the &lt;mark&gt; element</mark>, used for highlighting text.</p>
+
+    <p>
+      There are multiple elements for providing emphasis to words.
+      There's <b>the &lt;b&gt; tag</b>, used to draw the reader's attention;
+      <i>the &lt;i&gt; tag</i>, used to set off text like technical terms or
+      foreign-language phrases;
+      <em>the &lt;em&gt; tag</em>, used for stress emphasis;
+      and <strong>the &lt;strong&gt; tag</strong>, used to indicate seriousness or urgency.
+    </p>
+  </section>
+
+  <section id="forms">
+    <h3>Forms</h3>
+
+    <form>
+      <fieldset>
+        <legend>Inputs outside of labels</legend>
+        <div>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name">
+        </div>
+        <div>
+          <label for="city">City</label>
+          <input type="text" id="city" name="city">
+        </div>
+        <div>
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option>Canada</option>
+            <option>India</option>
+            <option>Spain</option>
+          </select>
+        </div>
+        <div>
+          <label for="notes">Notes</label>
+          <textarea id="notes" rows="5"></textarea>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Inputs inside of labels</legend>
+        <label for="phone">
+          Phone number
+          <input type="tel" id="phone" name="phone">
+        </label>
+
+        <label for="email">
+          Email
+          <input type="email" id="email" name="email">
+        </label>
+
+        <div>
+          <label for="contact">Preferred contact
+            <select id="contact" name="contact">
+              <option>Email</option>
+              <option>Phone</option>
+              <option>None</option>
+            </select>
+          </label>
+        </div>
+
+        <div>
+          <label for="address">Address
+            <textarea id="address" rows="5"></textarea>
+          </label>
+        </div>
+
+      </fieldset>
+    </form>
+  </section>
+
+  <section id="buttons">
+    <h3>Buttons</h3>
+    <p>
+      <button>A standard button</button>
+    </p>
+    <p>
+      <input type="submit" value="An input with type submit">
+    </p>
+    <p>
+      <button type="reset">A button with type reset</button>
+    </p>
+  </section>
+
+  <section id="lists">
+    <h3>Lists</h3>
+    <h4>An unordered list</h4>
+    <ul>
+      <li>Apples
+        <ul>
+          <li>Granny Smith</li>
+          <li>Fuji</li>
+          <li>Honeycrisp</li>
+        </ul>
+      </li>
+      <li>Oranges</li>
+      <li>Bananas</li>
+      <li>Kiwi</li>
+      <li>Mango</li>
+      <li>Plums</li>
+    </ul>
+
+    <h4>An unordered list</h4>
+    <ol>
+      <li>Apples
+        <ol>
+          <li>Granny Smith</li>
+          <li>Fuji</li>
+          <li>Honeycrisp
+            <ol>
+              <li>Washington</li>
+              <li>Oregon</li>
+            </ol>
+          </li>
+        </ol>
+      </li>
+      <li>Oranges</li>
+      <li>Bananas</li>
+      <li>Kiwi</li>
+      <li>Mango</li>
+      <li>Plums</li>
+    </ol>
+
+    <h4>A dictionary list</h4>
+    <dl>
+      <dt>Name</dt>
+      <dd>Habitat 67</dd>
+      <dt>City</dt>
+      <dd>Montreál</dd>
+      <dt>Architect</dt>
+      <dd>Moshe Safdie</dd>
+    </dl>
+  </section>
+
+  <section id="semantic">
+    <h3>Semantic blocks</h3>
+
+    <h4>Sections</h4>
+
+    <section>      
+      You've been looking at &lt;section&gt; tags throughout this document. They are enclosed in 
+      a light gray border.      
+    </section>
+
+    <h4>Articles</h4>
+    <p>
+      An &lt;article&gt; is formatted for more magazine-style reading, using serif font-faces for body text.
+    </p>
+
+    <section>
+      <article>
+        <h2>Consciousness Might Be a Result of Basic Physics, Say Researchers</h2>
+
+        <p>We suggest that <i>resonance</i> – another word for synchronized vibrations – is at the heart of not only
+          human consciousness but also animal consciousness and of physical reality more generally. It sounds like
+          something the hippies might have dreamed up – it's all vibrations, man! – but stick with me.</p>
+
+        <h3>All about the vibrations</h3>
+
+        <p>All things in our universe are constantly in motion, vibrating. Even objects that appear to be stationary
+          are in fact vibrating, oscillating, resonating, at various frequencies.</p>
+
+        <p>Resonance is a type of motion, characterized by oscillation between two states. And ultimately all matter is
+          just vibrations of various underlying fields. As such, at every scale, all of nature vibrates.</p>
+
+        <p>Something interesting happens when different vibrating things come together: They will often start, after a
+          little while, to vibrate together at the same frequency. They "sync up," sometimes in ways that can seem
+          mysterious. This is described as the phenomenon of spontaneous self-organization.</p>
+
+        <p>Mathematician Steven Strogatz provides various examples from physics, biology, chemistry and neuroscience to
+          illustrate "sync" – his term for resonance – in his 2003 book "Sync: How Order Emerges from Chaos in the
+          Universe, Nature, and Daily Life," including:</p>
+
+        <ul>
+          <li>When fireflies of certain species come together in large gatherings, they start flashing in sync, in ways
+            that can still seem a little mystifying.</li>
+          <li>Lasers are produced when photons of the same power and frequency sync up.</li>
+          <li>The moon's rotation is exactly synced with its orbit around the Earth such that we always see the same
+            face.</li>
+          <li>Examining resonance leads to potentially deep insights about the nature of consciousness and about the
+            universe more generally.</li>
+        </ul>
+      </article>
+    </section>
+
+    <h4>Asides</h4>
+    <p>
+      An &lt;aside&gt; is used to set apart part of a document whose content is indirectly related to the main content.
+      In practice, we use it for notes, authorial voice, and thoughts too large for parenthetical expressions.
+    </p>
+
+    <aside>
+      While the intended use of semantic elements in HTML should be respected, I consider the commonplace usage of them
+      to be
+      just as important. HTML5 follows this principle -- the creators of it took commonly used classes and turned them
+      into
+      elements.
+    </aside>
+
+  </section>
+</body>
+
+</html>
