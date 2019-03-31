@@ -15,6 +15,9 @@ Next, my fiction section.
 
 * Lloyd Alexander, *The Book of Three*
 * Lloyd Alexander, *The Black Cauldron*
+* Lloyd Alexander, *The Castle of Llyr*
+* Lloyd Alexander, *Taran Wanderer*
+* Lloyd Alexander, *The High King*
 * Monica Byrne, *The Girl in the Road*
 * Paulo Coelho, *The Alchemist*
 * John Darnielle, *Master of Reality*
@@ -41,9 +44,7 @@ Next, my fiction section.
 
 ## Books to read
 
-* Lloyd Alexander, *The Castle of Llyr*
-* Lloyd Alexander, *Taran Wanderer*
-* Lloyd Alexander, *The High King*
+
 * Russell Banks, *Rule of the Bone*
 * Saul Bellow, *Humboldt's Gift*
 * Jesse Bullington, *The Enterprise of Death*
