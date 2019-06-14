@@ -3,7 +3,7 @@
 <main>
 	<article class="article h-entry">
 		<h1 class="p-name">{{ .Title }}
-      <small><span><a href="{{ .URL }}"><time class="dt-published" datetime="{{ .Date.Format "2006-01-02T15:04" }}">{{ .Date.Format "2 Jan 2006" }}</time></a></span></small>
+      <small><span><a href="{{ .RelPermalink }}"><time class="dt-published" datetime="{{ .Date.Format "2006-01-02T15:04" }}">{{ .Date.Format "2 Jan 2006" }}</time></a></span></small>
     </h1>        
 		<div class="e-content article__content">
 			{{ .Content }}

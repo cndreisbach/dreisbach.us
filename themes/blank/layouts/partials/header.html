@@ -17,7 +17,7 @@
 		<nav>
 			<ul>
 				{{ range .Site.Menus.main }}
-				<li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+				<li><a href="{{ .RelPermalink }}">{{ .Name }}</a></li>
 				{{ end }}
 			</ul>
 		</nav>
