@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ if (eq .URL "/") }}{{ .Title }}{{ else }}Clinton Dreisbach - {{ .Title }}{{ end }}</title>
+    <title>{{ if (eq .RelPermalink "/") }}{{ .Title }}{{ else }}Clinton Dreisbach - {{ .Title }}{{ end }}</title>
     {{ with .Site.Params.description }}
     <meta name="description" content="{{ . }}">
     {{ end }}
@@ -16,9 +16,10 @@
     <link rel="stylesheet" href="/css/shoelace.css">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css" />
-    {{ if .RSSLink }}
-    <link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}"> {{ end }}
-    {{ .Hugo.Generator }}
+    {{ with .OutputFormats.Get "rss" -}}
+      {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+    {{ end -}}
+    {{ hugo.Generator }}
 </head>
 
 <body>

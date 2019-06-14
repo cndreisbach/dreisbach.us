@@ -25,6 +25,11 @@ languages = ["ruby", "python", "javascript", "bash"]
 url = "https://github.com/cndreisbach"
 fa_icon = "fa-github"
 
+[[params.social]]
+url = "https://soundcloud.com/mount-olive"
+fa_icon = "fa-soundcloud"
+
+
 [[menu.sidebar]]
 name = "Articles"
 weight = 10
