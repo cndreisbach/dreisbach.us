@@ -24,7 +24,7 @@
 	</section>
 	<section id="articles">
     <h2>Recent articles</h2>
-    {{ $paginator := .Paginate (where .Data.Pages "Type" "in" .Site.Params.mainSections) }}
+    {{ $paginator := .Paginate (where site.RegularPages "Type" "in" site.Params.mainSections) }}
 		{{ range sort $paginator.Pages }}
 		{{ .Render "summary" }}
 		{{ end }}

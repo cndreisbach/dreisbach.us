@@ -5,6 +5,15 @@ draft: false
 type: pages
 ---
 
+### Mount Olive
+
+I play the tenor guitar and sing under the name Mount Olive. I've made one short album, _The Wide Table_.
+
+<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=716187899/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://mountolive.bandcamp.com/album/the-wide-table">The Wide Table by Mount Olive</a></iframe>
+
+I post new songs and stuff I'm working on at [my Soundcloud](https://soundcloud.com/mount-olive).
+
+
 ### CFS Analytics
 
 {{< figure src="/img/projects/cfs.png" alt="CFS Analytics" >}}
